@@ -7,8 +7,9 @@
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 2em;
 }
 
 .cabecalho__logo {
@@ -31,6 +32,8 @@
     display: flex;
     gap: 1.5em;
     align-items: center;
+    margin-right: auto;
+    padding-left: 4em;
 }
 
 .opcoes__link {
